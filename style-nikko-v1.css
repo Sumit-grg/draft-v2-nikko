@@ -4083,6 +4083,7 @@ body.hidden-scroll {
 	.container {
 		max-width: 100%;
 	}
+	.parallax{ background-attachment: fixed !important;}
 
 }
 
@@ -4095,10 +4096,11 @@ body.hidden-scroll {
 		height: 100vh;
 		padding-top: 170px;
 	}
+	.parallax{ background-attachment: fixed !important;}
 }
 
 @media (min-width: 1024px) {
-	
+	.parallax{ background-attachment: fixed !important;}
 }
 
 @media (min-width: 1200px) {
@@ -4756,6 +4758,8 @@ body.hidden-scroll {
 		margin-right: 15px !important;
 		margin-bottom: 0 !important;
 	}
+	/* parallax */
+	.parallax{ background-attachment: fixed !important;}
 	
 }
 

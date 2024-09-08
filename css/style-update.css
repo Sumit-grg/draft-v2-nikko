@@ -200,7 +200,7 @@ h2{
 	height: auto;
 }
 .svg-color{
-	/* fill: #B49637; */
+		fill: #B49637;
 }
 	/* port & Blog view btn flex */
 .port-cont-margin {
@@ -336,6 +336,9 @@ h2{
 
 
 /* testmonal */
+.testimonial-info h4, .testimonial-info h3{
+	text-shadow: 5px 5px 5px black;
+}
 .testimonial-info h3{
 	font-size: 2.3em;
 }
@@ -850,7 +853,14 @@ img.grid-sm-land-r {
 /* top wave adjustment update */
 #adjustment-wave-new {
 	position:relative;
-	top:-150px;
+	top:-148px;
+}
+#adjustment-wave-video{
+	/* border: 2px solid red; */
+	position: relative;
+}
+#adjustment-wave-footer{
+	top: 2px;
 }
 @media (max-width: 992px) {
 	#adjustment-wave-new {
