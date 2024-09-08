@@ -355,8 +355,24 @@ h2{
 }
 
 /* contact */
-
-
+/* footer  */
+.contact-item {
+	margin: 10px;
+}
+.contact-item a i {
+	color: #818181;
+	width: 40px;
+	font-size: x-large;
+}
+.fa-facebook:hover {
+	color:  #316FF6;
+}
+.fa-instagram:hover {
+	color: #c13584;
+}
+.fa-youtube:hover {
+	color: #FF0000;
+}
 /* blog items html page */
 
 .blog-des p {
@@ -801,11 +817,11 @@ img.grid-sm-land-r {
 	/* new page blog.html */
 
 	.blog-items-1 {
-		width: 100%;
+		width: 45%;
 	}
 	.blog-items-1 img {
-		width: 2.2in;
-		height: 2.2in;
+		width: 1.6in;
+		height: 1.6in;
 		object-fit: cover;
 		border-radius: 4px;
 	}
