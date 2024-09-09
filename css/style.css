@@ -154,8 +154,8 @@ section {
 }
 
 .main-button:hover {
-    border: 1px solid #000;
-    background: #000;
+    border: 1px solid rgba(0, 51, 51, 0.75) ;
+    background: rgba(0, 51, 51, 0.75) ;
     color: #fff;
     text-decoration: none;
 }
@@ -243,6 +243,7 @@ section {
     left: 0;
     width: 100%;
     z-index: 99;
+
 }
 
 
@@ -263,7 +264,7 @@ section {
     padding-top: 4px;
     padding-bottom: 4px;
     position: fixed;
-    background-color: #111111cf !important;
+    background-color: rgba(0, 51, 51, 0.75) !important;
     -webkit-box-shadow: 0 1px 70px rgba(0, 0, 0, 0.5);
     box-shadow: 0 1px 70px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .5s ease;
@@ -714,7 +715,7 @@ section {
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #111;
+    background-color: rgba(0, 51, 51, 0.75);
     text-align: center;
 }
 
@@ -738,7 +739,7 @@ footer ul.social-icons li:last-child {
 }
 
 footer ul.social-icons li a {
-    color: #757575;
+    color: #ffffff;
     font-size: 16px;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
@@ -750,7 +751,7 @@ footer ul.social-icons li a:hover {
 }
 
 footer p {
-    color: #757575;
+    color: #ffffff;
     margin: 24px 0 0 0;
     font-size: 14px;
 }

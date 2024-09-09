@@ -14,15 +14,14 @@ h2{
 /* nav update */
 .navbar {
 	padding: 4px;
+	background-color: rgba(0, 51, 51, 0.75) !important;
 }
 .nav-link {
 	color: white !important;
 	font-size: 1.2em;
-	text-shadow: 5px 5px 5px black;
 }
 .nav-link:hover {
 	border-bottom: 1px solid white;
-	box-shadow: 0 4px 2px -2px rgba(136, 136, 136, 0.666);
 }
 
 .nav-flex-mobile {
@@ -35,10 +34,10 @@ h2{
 	align-items: center;
 	text-align: center;
 }
+
 #logo-cont img {
 	width: 80px;
 	padding: 6px;
-	filter: drop-shadow(2px 2px 2px #222);
 } 
 #logo-cont p {
 	/* font-family: Copperplate, Papyrus, fantasy; */
@@ -49,7 +48,6 @@ h2{
 	font-size: 1.1em;
 	line-height: 1;
 	font-weight: 700;
-	text-shadow: 2px 2px 2px black;
 } 
 #logo-cont p span {
 	font-size: 0.8em;
@@ -58,7 +56,6 @@ h2{
 	/* letter-spacing: 3px; */
 	font-weight: 700;
 	color: #ffffff;
-	text-shadow: 2px 2px 2px black;
 } 
 
 /* home background swpier */
@@ -439,6 +436,8 @@ h2{
 	font-family: "stratum-1-web", "TTNormsPro";
 	/* font-family: "Rubik", sans-serif; */
 	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 0.9em;
 }
 .blog-des1 {
 	text-align: justify;
@@ -902,16 +901,56 @@ img.grid-sm-land-r {
 
 /* top wave adjustment update */
 #adjustment-wave-new {
+	display: none;
+	position:relative;
+	top:-146px;
+}
+#adjustment-wave-about {
+	display: none;
+	position:relative;
+	top:-146px;
+}
+#adjustment-wave-blog {
+	display: none;
 	position:relative;
 	top:-146px;
 }
 #adjustment-wave-video{
-	/* border: 2px solid red; */
+	display: none;
 	position: relative;
+}
+#adjustment-wave-test {
+	display: none;
+	position:relative;
+	top:-146px;
+}
+#adjustment-wave-footer{
+	display: none;
+	top: 2px;
+}
+
+/* #adjustment-wave-new {
+	position:relative;
+	top:-146px;
+}
+#adjustment-wave-about {
+	position:relative;
+	top:-146px;
+}
+#adjustment-wave-blog {
+	position:relative;
+	top:-146px;
+}
+#adjustment-wave-video{
+	position: relative;
+}
+#adjustment-wave-test {
+	position:relative;
+	top:-146px;
 }
 #adjustment-wave-footer{
 	top: 2px;
-}
+} */
 @media (max-width: 992px) {
 	#adjustment-wave-new {
 		/* border: 2px solid red; */
@@ -922,5 +961,22 @@ img.grid-sm-land-r {
 	#adjustment-wave-new {
 		/* border: 2px solid red; */
 		top:-73px;
+		display: none;
+	}
+	#adjustment-wave-about {
+		display: none;
+	}
+	#adjustment-wave-blog {
+		display: none;
+	}
+	#adjustment-wave-video{
+		display: none;
+	}
+	#adjustment-wave-test {
+		display: none;
+	}
+	#adjustment-wave-footer{
+		top: 2px;
+		display: none;
 	}
 }

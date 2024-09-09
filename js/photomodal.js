@@ -32,12 +32,12 @@ leftArrBtn.addEventListener('click', ()=>{
 rightArrBtn.addEventListener('click', ()=>{ 
   sideScroll(playlistScrollDiv,'right',10,600,20);
 })
-upArrBtn.addEventListener('click', ()=>{ 
-  vertScroll(playlistScrollDiv,'up',10,600,20);
-})
-downArrBtn.addEventListener('click', ()=>{ 
-  vertScroll(playlistScrollDiv,'down',10,600,20);
-})
+// upArrBtn.addEventListener('click', ()=>{ 
+//   vertScroll(playlistScrollDiv,'up',10,600,20);
+// })
+// downArrBtn.addEventListener('click', ()=>{ 
+//   vertScroll(playlistScrollDiv,'down',10,600,20);
+// })
 
 
 function sideScroll(element,direction,speed,distance,step){
