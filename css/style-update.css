@@ -915,12 +915,12 @@ img.grid-sm-land-r {
 @media (max-width: 992px) {
 	#adjustment-wave-new {
 		/* border: 2px solid red; */
-		top:-120px;
+		top:-122px;
 	}
 }
 @media (max-width: 767px) {
 	#adjustment-wave-new {
 		/* border: 2px solid red; */
-		top:-75px;
+		top:-73px;
 	}
 }
