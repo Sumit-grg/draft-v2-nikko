@@ -776,13 +776,17 @@ img.grid-sm-land-r {
 		border-radius: 0px;
 	}
 	.play-item img{
-		padding: 10px;
+		border: 0.1px solid goldenrod;
+		padding: 1px;
 		width: 120px;
-		border-radius: 10px;
+		border-radius: 6px;
+		margin-left: 8px;
+		margin-bottom: 1px;
 	}
 	.play-item p {
 		font-family: "Rubik", sans-serif;
 		font-size: 1.1em;
+		margin-left: 10px;
 	}
 	.play-item span {
 		display: inherit;
@@ -886,9 +890,28 @@ img.grid-sm-land-r {
 			font-size: 60px;
 		}
 
+		/* testimonial */
+		.testimonial-quote svg {
+			margin-bottom: 10px !important;
+			width: 40px !important;
+			height: 40px !important;
+		}
+		.testimonial-desc {
+			margin-bottom: 10px;
+			line-height: 1;
+			font-size: 1.4em;
+		}
+		.testimonial-info h3 {
+			
+			font-size: 2em;
 
+		}
 }
 	
+
+
+
+
 
 /* top wave adjustment update */
 #adjustment-wave-new {
