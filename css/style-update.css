@@ -220,7 +220,6 @@ h2{
 
 /* video section */
 .vid-item-cont{
-	/* border: 2px solid red;	 */
 	position: relative;
 	width: 100%;
 	height: 0;
@@ -278,10 +277,10 @@ h2{
 	display: flex;
 	align-items: center;
 }
-.fa-angle-left, .fa-angle-right {
+#fa-arrow-left, #fa-arrow-right {
 	font-size: 2.5em;
 }
-.fa-angle-up, .fa-angle-down {
+#fa-arrow-up, #fa-arrow-down {
 	display: none;
 }
 .fas:hover{
@@ -305,7 +304,7 @@ h2{
 
 .vid-playlist::-webkit-scrollbar-thumb {
 	border-radius: 8px;
-    border: 2px solid rgba(101, 101, 101, 0.523);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.74);
 }
 
@@ -314,7 +313,7 @@ h2{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #818181;
+	background-color: #444444;
 	border-radius: 4px;
 }
 .play-item:hover {
@@ -413,8 +412,8 @@ h2{
 	border-radius: 4px;
 }
 .blog-items-1 img {
-	width: 4in;
-	height: 4in;
+	width: 3in;
+	height: 3in;
 	object-fit: cover;
 	border-radius: 4px;
 }
@@ -457,6 +456,7 @@ h2{
 .blog-pageno-cont i {
 	margin: 0 6px;
 	color: rgb(84, 83, 83);
+	font-size: 2em;
 }
 .blog-page-sel {
 	margin: 0 4px;
@@ -721,13 +721,7 @@ img.grid-sm-land-r {
 	}
 	.playlist-cont{
 		width: 100%;
-		color: white;
-		background-color: #272727;
-	}
-	.playlist-cont span {
-		color: white;
-		font-family: "Rubik", sans-serif;
-		font-size: 1em;
+
 	}
 	.list-arr-cont {
 		display: flex;
@@ -735,14 +729,8 @@ img.grid-sm-land-r {
 		align-items: center;
 		height: 45vh;
 	}
-	.fa-angle-left, .fa-angle-right {
+	#fa-arrow-left, #fa-arrow-right {
 		display: none;
-	}
-	.fa-angle-up, .fa-angle-down {
-		font-size: 2em;
-		display: none;
-		width: 20%;
-		padding-left: 40px;
 	}
 	.vid-playlist {
 		display: flex;
@@ -754,7 +742,7 @@ img.grid-sm-land-r {
 		-webkit-appearance: none;
 	}
 	.vid-playlist::-webkit-scrollbar:vertical {
-		width: 6px;
+		width: 8px;
 	}
 
 	.vid-playlist::-webkit-scrollbar:horizontal {
@@ -763,17 +751,16 @@ img.grid-sm-land-r {
 
 	.vid-playlist::-webkit-scrollbar-thumb {
 		border-radius: 8px;
-		border: 2px solid rgba(115, 209, 115, 0.523);
-		background-color: rgba(255, 255, 255, 0.74);
 	}
 
 	.play-item {
-		margin: 4px;
+		margin: 2px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		background-color: #818181;
-		border-radius: 0px;
+		background-color: #444444;
+		border-radius: 4px;
+		padding: 2px;
 	}
 	.play-item img{
 		border: 0.1px solid goldenrod;
@@ -791,7 +778,7 @@ img.grid-sm-land-r {
 	.play-item span {
 		display: inherit;
 		font-size: 1.2em;
-		margin-left: 20px;
+		margin: 0 10px;
 	}
 
 		/* port & Blog view btn flex */
@@ -916,7 +903,7 @@ img.grid-sm-land-r {
 /* top wave adjustment update */
 #adjustment-wave-new {
 	position:relative;
-	top:-148px;
+	top:-146px;
 }
 #adjustment-wave-video{
 	/* border: 2px solid red; */
