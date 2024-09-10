@@ -820,7 +820,7 @@ img.grid-sm-land-r {
 	.play-item img{
 		border: 0.1px solid goldenrod;
 		padding: 1px;
-		width: 120px;
+		width: 80px;
 		border-radius: 6px;
 		margin-left: 8px;
 		margin-bottom: 1px;
@@ -832,7 +832,7 @@ img.grid-sm-land-r {
 	}
 	.play-item span {
 		display: inherit;
-		font-size: 1.2em;
+		font-size: 1em;
 		margin: 0 10px;
 	}
 
