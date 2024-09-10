@@ -616,7 +616,7 @@ img.grid-sm-land-r {
 		font-weight: 200;
 	}
 	.intro-img {
-		width: 50%;
+		width: 100%;
 		position: inherit;
 		left: 30px;
 		top: 30px;
@@ -637,7 +637,7 @@ img.grid-sm-land-r {
 		font-size: 1em;
 	}
 	.intro-img2 {
-		width: 50%;
+		width: 100%;
 		position: inherit;
 		border-radius: 4px;
 	}
