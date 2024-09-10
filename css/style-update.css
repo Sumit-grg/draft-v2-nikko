@@ -299,9 +299,12 @@ h2{
 	cursor: pointer;
 }
 .vid-playlist {
+	border: 2px solid #1d1d1d;
 	display: flex;
 	overflow: scroll;
 	width: 100%;
+	background-color: #1d1d1d;
+	border-radius: 4px;
 }
 .vid-playlist::-webkit-scrollbar{
 	-webkit-appearance: none;
