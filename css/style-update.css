@@ -782,7 +782,7 @@ img.grid-sm-land-r {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		height: 45vh;
+		height: 35vh;
 	}
 	#fa-arrow-left, #fa-arrow-right {
 		display: none;
