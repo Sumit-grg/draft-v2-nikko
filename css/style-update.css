@@ -886,6 +886,7 @@ img.grid-sm-land-r {
 			width: 100%;
 			display: flex;
 			justify-content: space-between;
+
 		}
 		.navbar-nav{
 			display: none;
@@ -897,7 +898,7 @@ img.grid-sm-land-r {
 	
 		}
 		.burger-menu span {
-			font-size: 2em;
+			font-size: 1.6em;
 			color: white;
 		}
 		.overlay {
@@ -940,7 +941,35 @@ img.grid-sm-land-r {
 			right: 45px;
 			font-size: 60px;
 		}
+		/* logo top */
+		#logo-cont {
+			display: flex;
+			align-items: center;
+			text-align: center;
+		}
 
+		#logo-cont img {
+			width: 40px;
+			padding: 0px;
+		} 
+		#logo-cont p {
+			/* font-family: Copperplate, Papyrus, fantasy; */
+			font-family: "Rubik", sans-serif;
+			/* letter-spacing: 2px; */
+			color: #ffffff;
+			padding: 4px;
+			font-size: 1em;
+			line-height: 1;
+			font-weight: 700;
+		} 
+		#logo-cont p span {
+			font-size: 0.9em;
+			/* font-family: Copperplate, Papyrus, fantasy; */
+			font-family: "Rubik", sans-serif;
+			/* letter-spacing: 3px; */
+			font-weight: 700;
+			color: #ffffff;
+		} 
 		/* testimonial */
 		.testimonial-quote svg {
 			margin-bottom: 10px !important;
