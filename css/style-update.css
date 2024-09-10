@@ -7,8 +7,8 @@
 }
 
 h2{
-	font-family: "Rubik", sans-serif !important;
-	font-style: normal !important;
+	font-family: "Rubik", sans-serif;
+	font-weight: bolder !important;
 }
 
 /* nav update */
@@ -115,7 +115,7 @@ h2{
 
 .intro-text2{
 	width: 50%;
-	/* position: relative; */
+	position: relative;
 	left: 30px;
 	z-index: 1;
 	padding: 10px;
@@ -129,12 +129,12 @@ h2{
 }
 .intro-img2 {
 	width: 50%;
-	/* position: relative; */
+	position: relative;
 	right: 30px;
 	top: -30px;
 	border-radius: 4px;
 	border: 2px solid #B49637;
-	z-index: 1;
+	/* z-index: 1; */
 }
 
 /* step-text-final */
@@ -143,9 +143,15 @@ h2{
 	text-align: justify;
 	padding: 10px;
 }
+.step-text h3{
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: "Rubik", sans-serif;
+}
 .step-text p{
 	font-size: 1.2em;
-	font-weight: 600;
+	font-weight: 400;
+	font-family: "Rubik", sans-serif;
 }
 .text-glow {
 	color: rgb(62, 62, 62);
@@ -432,20 +438,14 @@ h2{
 	object-fit: cover;
 	border-radius: 4px;
 
-	border: 1px solid rgba(0, 51, 51);
 }
 .blog-items-1 img:hover {
 	cursor: pointer;
 }
 .text-item-blog-1 {
 	text-align: center;
+	margin-top: 4px;
 
-	padding: 6px;
-	border-radius: 4px;
-	background-color: #dfbc4989;
-	position: relative;
-	top: -14px;
-	border: 1px solid rgba(0, 51, 51);
 }
 .photo-event-1{
 	font-family: "Rubik", sans-serif;
@@ -455,17 +455,12 @@ h2{
 	/* margin: 8px; */
 	font-size: 1.1em;
 
-	color: white;
-	text-shadow: 1px 1px 1px black;
 }
 .text-item-blog-1 h3 a {
 	color: inherit;
 	font-family: "Rubik", sans-serif;
-	/* margin-top: 10px; */
 	text-transform: uppercase;
-
-	font-size: 0.7em;
-	text-shadow: 1px 1px 1px white;
+	font-size: 1em;
 }
 .blog-des1 {
 	text-align: justify;
@@ -653,10 +648,11 @@ img.grid-sm-land-r {
 	.step-text h3{
 		font-family: "Rubik", sans-serif;
 		font-weight: 400;
+		font-size: 1.6em;
 	}
 	.step-text p{
 		font-size: 1em;
-		font-weight: 600;
+		font-weight: 400;
 	}
 	.text-glow {
 		text-shadow: 1px 1px 1px #B49637;
@@ -867,6 +863,21 @@ img.grid-sm-land-r {
 
 	.blog-items-1 {
 		width: 100%;
+	}
+	.blog-items-1 img {
+		width: 2.5in;
+		height: 2.5in;
+	
+	}
+	.photo-event-1{
+		font-family: "Rubik", sans-serif;
+	}
+	.text-item-blog-1 p {
+		font-size: 1.1em;
+	
+	}
+	.text-item-blog-1 h3 a {
+		font-size: 0.9em;
 	}
 
 
